@@ -1,4 +1,5 @@
   DECL(abmt) \
+  DECL(acurite_01185m) \
   DECL(acurite_rain_896) \
   DECL(acurite_th) \
   DECL(acurite_txr) \
@@ -6,7 +7,6 @@
   DECL(acurite_606) \
   DECL(acurite_00275rm) \
   DECL(acurite_590tx) \
-  DECL(acurite_01185m) \
   DECL(akhan_100F14) \
   DECL(alectov1) \
   DECL(ambient_weather) \
@@ -32,6 +32,7 @@
   DECL(bresser_7in1) \
   DECL(bresser_leakage) \
   DECL(bresser_lightning) \
+  DECL(bresser_st1005h) \
   DECL(bt_rain) \
   DECL(burnhardbbq) \
   DECL(calibeur_RF104) \
@@ -46,6 +47,7 @@
   DECL(cotech_36_7959) \
   DECL(current_cost) \
   DECL(danfoss_CFR) \
+  DECL(deltadore_x3d) \
   DECL(digitech_xc0324) \
   DECL(directv) \
   DECL(dish_remote_6_3) \
@@ -100,6 +102,9 @@
   DECL(geo_minim) \
   DECL(govee) \
   DECL(govee_h5054) \
+  DECL(gridstream96) \
+  DECL(gridstream192) \
+  DECL(gridstream384) \
   DECL(gt_tmbbq05) \
   DECL(gt_wt_02) \
   DECL(gt_wt_03) \
@@ -126,8 +131,8 @@
   DECL(kedsum) \
   DECL(kerui) \
   DECL(klimalogg) \
-  DECL(lacrossetx) \
   DECL(lacrosse_breezepro) \
+  DECL(lacrossetx) \
   DECL(lacrosse_r1) \
   DECL(lacrosse_th3) \
   DECL(lacrosse_tx141x) \
@@ -139,23 +144,23 @@
   DECL(lacrosse_ws7000) \
   DECL(lacrossews) \
   DECL(lightwave_rf) \
-  DECL(m_bus_mode_c_t) \
-  DECL(m_bus_mode_c_t_downlink) \
-  DECL(m_bus_mode_s) \
-  DECL(m_bus_mode_r) \
-  DECL(m_bus_mode_f) \
   DECL(markisol) \
   DECL(marlec_solar) \
   DECL(maverick_et73) \
   DECL(maverick_et73x) \
   DECL(maverick_xr30) \
+  DECL(m_bus_mode_c_t) \
+  DECL(m_bus_mode_c_t_downlink) \
+  DECL(m_bus_mode_s) \
+  DECL(m_bus_mode_r) \
+  DECL(m_bus_mode_f) \
   DECL(mebus433) \
   DECL(megacode) \
   DECL(missil_ml0757) \
   DECL(mueller_hotrod) \
   DECL(neptune_r900) \
-  DECL(new_template) \
   DECL(newkaku) \
+  DECL(new_template) \
   DECL(nexa) \
   DECL(nexus) \
   DECL(nice_flor_s) \
@@ -163,8 +168,8 @@
   DECL(oil_smart) \
   DECL(oil_standard) \
   DECL(oil_standard_ask) \
-  DECL(oil_watchman) \
   DECL(oil_watchman_advanced) \
+  DECL(oil_watchman) \
   DECL(opus_xt300) \
   DECL(oregon_scientific) \
   DECL(oregon_scientific_sl109h) \
@@ -175,17 +180,20 @@
   DECL(prologue) \
   DECL(proove) \
   DECL(quhwa) \
+  DECL(quinetic) \
   DECL(radiohead_ask) \
   DECL(sensible_living) \
   DECL(rainpoint) \
+  DECL(rainpoint_hcs012arf) \
   DECL(regency_fan) \
   DECL(revolt_nc5462) \
+  DECL(revolt_zx7717) \
   DECL(rftech) \
   DECL(risco_agility) \
   DECL(rojaflex) \
   DECL(rosstech_dcu706) \
-  DECL(rubicson) \
   DECL(rubicson_48659) \
+  DECL(rubicson) \
   DECL(rubicson_pool_48942) \
   DECL(s3318p) \
   DECL(schou_72543_rain) \
@@ -230,6 +238,7 @@
   DECL(tpms_eezrv) \
   DECL(tpms_elantra2012) \
   DECL(tpms_ford) \
+  DECL(tpms_gm) \
   DECL(tpms_hyundai_vdo) \
   DECL(tpms_jansite) \
   DECL(tpms_jansite_solar) \
@@ -237,8 +246,8 @@
   DECL(tpms_nissan) \
   DECL(tpms_pmv107j) \
   DECL(tpms_porsche) \
-  DECL(tpms_renault) \
   DECL(tpms_renault_0435r) \
+  DECL(tpms_renault) \
   DECL(tpms_toyota) \
   DECL(tpms_truck) \
   DECL(tpms_tyreguard400) \
@@ -260,5 +269,5 @@
   DECL(x10_sec) \
   DECL(yale_hsa) \
   /* Add new decoders here. */
-#define NUMOF_OOK_DEVICES 164
-#define NUMOF_FSK_DEVICES 97
+#define NUMOF_OOK_DEVICES 168
+#define NUMOF_FSK_DEVICES 102
