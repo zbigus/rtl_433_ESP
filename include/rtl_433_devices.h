@@ -288,11 +288,8 @@
  * Subset of devices that I have access to and have tested with
  */
 #define DEVICES        \
-  DECL(acurite_986)    \
-  DECL(skylink_motion) \
-  DECL(prologue)       \
-  DECL(philips_aj3650) \
-  DECL(fineoffset_WH51) \
+  DECL(nexus)    \
+  DECL(fineoffset_wh1080) \
   /* Add new personal decoders here. */
   #define NUMOFDEVICES 5
 #endif
