@@ -291,7 +291,9 @@
   DECL(nexus)    \
   DECL(fineoffset_wh1080) \
   /* Add new personal decoders here. */
-  #define NUMOFDEVICES 5
+  #define NUMOFDEVICES 2
+  #define NUMOF_OOK_DEVICES 2
+  #define NUMOF_FSK_DEVICES 0
 #endif
 
 #define DECL(name) extern r_device name;
